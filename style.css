@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #212529;
+    max-width: 1400px;
+    margin:auto
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 50px;
+}
+
+.navbar h2 {        
+color:yellowgreen;
+font-weight: 600;
+}
+
+.navbar ul {  
+    display: flex;
+    gap:25px;
+    } 
+
+.navbar ul li {    
+    list-style: none;    
+    } 
+
+.navbar ul li a {        
+    color:white;
+    font-size:16px;
+    text-decoration: none;   
+    transition: color 0.3s ease;
+    }
+
+.navbar ul li:hover a {        
+    color:yellowgreen;        
+    }
+
+.navbar button{    
+    background:yellowgreen;
+    border-radius: 6px;
+    color:black;
+    padding:6px 20px;
+    cursor: pointer;
+    }
+
+    .main {
+        display:flex;
+        height: 640px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+    }
+
+    .main h4 {        
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .main h4 span{
+        color: #ffb742;            
+        text-decoration:underline;
+    }
+
+    .main p.title {        
+        color:white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 40px;
+    }  
+    
+    .main p.subtitle {
+        color:white;
+        font-size: 8px;
+        font-weight: 100;
+        line-height: 20px;        
+    }   
+
+    .main img {
+        width:150px;      
+        margin-top: 80px;       
+    }
+
+    .guarantee {
+        display:flex;
+        justify-content: center;        
+        gap:24px;
+        padding: 0 50px;
+        flex-wrap: nowrap;
+        
+    }
+
+     .guarantee .item{
+        background: #292b2e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 0 30px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;   
+    } 
+    
+    .guarantee .item .icon{
+        width: 46px;
+        height: 46px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;        
+    } 
+
+    .guarantee .item .icon i{
+        font-size: 30px;
+    }
+
+    .guarantee .item .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+    } 
+
+    .guarantee .item .info h3 {
+        color: #ffb742;          
+    } 
+
+    .guarantee .item .info p {
+        color: #fff;   
+        font-size: 12px;       
+    } 
+
+    .seprator {
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        color: #ffb742;
+        display: inline-block;
+        margin: 50px 50px 30px;
+        padding: 10px 20px;
+    }
+
+    .about {
+        align-items: center;
+        display:flex;
+        gap: 80px;
+        justify-content: space-between;
+        padding:0 50px;
+    }
+
+    .about img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .about h3 {        
+        color:white;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .about p{             
+        margin-top: 10px;
+        color:white;
+        font-size: 10px;
+        font-weight: 100;
+    }
+
+    .hire-btn {
+        background: #ffb742;
+        color:black;        
+        margin-top:25px;
+        padding:6px 20px;
+        border-radius: 6px; 
+}
+
+.skills {
+    display:flex;
+    justify-content: space-around;
+    padding: 0 50px;  
+}
+
+.skills .left {  
+    width: 680px;
+}
+
+.skills .left .info h3 {  
+    color: white;
+    font-size: 16px;
+}
+
+.skills .left .info p {  
+    margin-top: 10px;
+    color: white;
+    font-size: 8px;
+}
+.skills .right { 
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; 
+    }
+
+    .skills .right .item i {
+        color: #fff;        
+        font-size: 34px;        
+    }
+
+    footer {        
+      background: #1c1c1c;
+      margin-top:100px;
+      padding: 80px 50px 40px;
+      position: relative;
+    }
+
+    footer .start {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;        
+        background-color: #ffb742;
+        border-radius: 15px;
+        padding: 30px 25px;
+        position: absolute;
+        width: 70%;
+        top: -12%;
+        left: 15%;
+    }
+
+    footer .start h3 {
+        color: black;
+        font-size: 12px;
+    }
+
+    footer .start p {
+        color:black;
+        font-size: 8px;
+    }
+
+    footer .start button {
+        color: black;
+        background: transparent;
+        font-size: 8px;
+        padding: 5px 15px;
+        border-radius: 15px;
+    }
+
+    footer .cols {
+        display: flex;
+        align-items: start;
+    }
+
+    footer .cols .about-col {
+        flex :3;        
+    }
+
+    footer .cols .about-col h3{
+        color: #ffb742;
+        margin-bottom: 20px;
+    }
+
+    /* footer .cols h4 {
+        display: flex;
+    }     */
+        
+
+    footer .cols .links-col {
+        flex :3;    
+    }
+
+    footer .cols .links-col h4, footer .cols .news-col h4{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+
+    footer .cols .links-col a{
+        display: block;
+        text-decoration: none;
+        color: #7b7b7b;
+        font-size: 14px;
+        line-height: 26px;
+        transition: color 0.6s ease;
+    }
+    
+    footer .cols .links-col a:hover{
+        color: #ffb742;
+    }
+    
+    footer .cols .news-col{
+        flex: 3;
+    }
+    
+    footer .cols .news-col p{
+        color: #7b7b7b;
+        font-size: 15px;
+    }
+    
+    footer .cols .news-col form{
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    footer .cols .news-col form input{
+        width: 100%;
+        background: #212529;
+        border: none;
+        padding: 13px;
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 13px;
+    }
